@@ -144,7 +144,7 @@ header {
     height: 67rem;
     position: absolute;
     top: 0;
-    left: 1180px;
+    right: 17.5%;
     opacity: 10%;
     background: var(--main-white);
 }

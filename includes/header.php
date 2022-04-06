@@ -6,7 +6,6 @@
 
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/quiz.css">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/main.css">

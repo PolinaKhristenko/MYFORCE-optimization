@@ -85,20 +85,26 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
 .telegram {
     width: 2.45rem;
     height: 2.45rem;
-    border-radius: 50%;
-    border: 1px solid var(--main-white);
 }
 
-.telegram svg {
-    margin: 4px 3px;
+
+.telegram circle {
+    stroke: #fff;
+    fill: none;
+    transition: fill 0.3s;
 }
 
-.telegram:hover {
-    background-color: var(--main-white);
+.telegram:hover circle {
+    fill: #fff;
+}
+
+.telegram path {
+    fill: white;
+    transition: fill 0.3s;
 }
 
 .telegram:hover path {
-    fill: var(--light-blue);
+    fill: #30B3F5;
 }
 
 /* Header */
@@ -134,6 +140,7 @@ header {
 
 .header__bookmark {
     width: 40rem;
+    display: none;
     height: 67rem;
     position: absolute;
     top: 0;
@@ -248,11 +255,16 @@ header {
 /* Адаптив */
 
 @media screen and (max-width: 1024px) { 
-
+    .container {
+        max-width: 992px; 
+    }
 }
 
 
 @media screen and (max-width: 992px) { 
+    .container {
+        max-width: 768px; 
+    }
 }
 
 
@@ -261,10 +273,57 @@ header {
         font-size: 8px;
     }
 
+    .container {
+        max-width: 576px; 
+    }
+
+    .footer__body {
+        flex-direction: column;
+    }
+
+    .footer__right {
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .footer__remark,
+    .footer__sub {
+        text-align: left;
+    }
+
+    .footer__right-item {
+        margin-left: 0;
+    }
+
+    .footer__sub {
+        margin-top: 10px;
+    }
+
+    .footer__right-down {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer__left-up {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
     html {
         font-size: 6px;
+    }
+
+    .container {
+        max-width: 100%; 
+        padding: 0 20px;
+    }
+
+    .footer__title,
+    .footer__remark {
+        max-width: 320px;
     }
 }

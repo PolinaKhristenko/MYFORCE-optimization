@@ -93,7 +93,6 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
     margin: 4px 3px;
 }
 
-
 .telegram:hover {
     background-color: var(--main-white);
 }
@@ -106,34 +105,54 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
 
 header {
     padding-top: 2.8rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2.4rem;
     color: var(--main-white);
     background: var(--dark-blue);
 }
 
 .header__outer {
-    display: flex;
     width: 800px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
-.logo__text {
+.header__sub {
+    color: #C9C9C9;
+    font-weight: 300;
     font-size: 1.6rem;
+    line-height: 140%;
+    margin: 4px 0 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 2.1rem;
 }
 
 .header__bookmark {
     width: 40rem;
     height: 67rem;
-    opacity: 10%;
     position: absolute;
     top: 0;
     left: 1180px;
+    opacity: 10%;
     background: var(--main-white);
+}
+
+.header__line {
+    width: 800px;
+    height: 1px;
+    margin-bottom: 8rem;
+    background: #D2D2D2;
 }
 
 /* Main (прибила футер к низу) */
 
 .main {
+    background: var(--dark-blue); /* для теста */
     flex: 1 1 auto;
 }
 

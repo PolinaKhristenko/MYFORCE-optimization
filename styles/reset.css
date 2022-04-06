@@ -1,13 +1,20 @@
 /* ресет, стили для хэдера и футера и адпатив */
 
-
 html, body {
     height: 100%;
-    font-size: 16px;
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     scroll-behavior: smooth;
+}
+
+/* для rem'ов */
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 16px;
 }
 
 /* переменные главных цветов */
@@ -76,13 +83,53 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
 }
 
 .telegram {
-    width: 40px;
-    height: 40px;
+    width: 2.45rem;
+    height: 2.45rem;
+    border-radius: 50%;
+    border: 1px solid var(--main-white);
+}
+
+.telegram svg {
+    margin: auto;
+}
+
+
+.telegram:hover {
+    background-color: var(--main-white);
+}
+
+.telegram:hover path {
+    fill: var(--light-blue);
 }
 
 /* Header */
 
+header {
+    padding-top: 2.8rem;
+    padding-bottom: 2rem;
+    color: var(--main-white);
+    background: var(--dark-blue);
+}
 
+.header__outer {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.logo__text {
+    font-size: 1.6rem;
+}
+
+.header__bookmark {
+    width: 40rem;
+    height: 67rem;
+    opacity: 10%;
+    position: absolute;
+    top: 0;
+    left: 1180px;
+    background: var(--main-white);
+}
 
 /* Main (прибила футер к низу) */
 
@@ -142,7 +189,7 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
 .footer__sub {
     color: #C9C9C9;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 140%;
     text-align: right;
     margin: 4px 0 24px 0;

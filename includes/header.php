@@ -8,34 +8,38 @@
 
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/quiz.css">
+    <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
-<header class="wrapper">
-    <div class="header__outer d-flex justify-content-between align-items-center header__spacing mt-4 w-75">
-        <div class="header__inner d-flex align-items-center">
-            <div class="header__item mr-5">
-                <a href="/" class="logo">MYFORCE</a>
-                <p class="logo__text">Экосистема для вашего бизнеса</p>
+<header class="header">
+    <div class="container">
+        <div class="header__outer">
+            <div class="header__inner d-flex align-items-center">
+                <div class="header__item">
+                    <img class="logo" src="../src/logo.svg" alt="Логотип MYFORCE">
+                    <p class="logo__text">Экосистема для вашего бизнеса</p>
+                </div>
+
+
             </div>
 
-            <a href="https://t.me/myforce_business" target="_blank" class="header__item logo-tg align-self-center ml-5">
-                <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20.7332 1.76099C20.8891 0.754147 19.9318 -0.040558 19.0365 0.352494L1.20602 8.18105C0.564035 8.46292 0.610995 9.43532 1.27683 9.64736L4.95393 10.8183C5.65573 11.0418 6.41566 10.9263 7.02848 10.5029L15.3187 4.77534C15.5687 4.60262 15.8412 4.95808 15.6276 5.17829L9.66014 11.3308C9.08126 11.9276 9.19616 12.9389 9.89246 13.3756L16.5737 17.5654C17.3231 18.0353 18.2871 17.5632 18.4273 16.6577L20.7332 1.76099Z" fill="#30B3F5"/>
-                </svg>
-            </a>
-        </div>
-
-        <div class="header__inner">
-            <div class="header__item phone">
-                <a href="tel:8 495 118 39 34" class="phone">8 495 118 39 34</a>
+            <div class="header__inner">
+                <div class="header__item">
+                    <a href="https://t.me/masalskymir" target="_blank" class="header__item telegram">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.1132 1.93269C14.2223 1.2279 13.5522 0.671609 12.9256 0.946746L0.444216 6.42674C-0.00517519 6.62404 0.0276966 7.30473 0.493784 7.45315L3.06775 8.27284C3.55901 8.42928 4.09096 8.34839 4.51994 8.05202L10.3231 4.04274C10.4981 3.92184 10.6888 4.17065 10.5393 4.3248L6.3621 8.63157C5.95688 9.04935 6.03731 9.75726 6.52472 10.0629L11.2016 12.9958C11.7261 13.3247 12.401 12.9942 12.4991 12.3604L14.1132 1.93269Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="tel:8 495 118 39 34" class="phone">8 495 118 39 34</a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="onHeader">
-        <p>123</p>
-    </div>
+        <div class="header__bookmark">
+            <p>123</p>
+        </div>
 
-    <div class="header__line"></div>
+        <div class="header__line"></div>
+    </div>
 </header>

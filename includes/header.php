@@ -2,11 +2,10 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Веб-переезд</title>
+    <title>Оптимизация бизнеса MYFORCE</title>
 
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/quiz.css">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/main.css">

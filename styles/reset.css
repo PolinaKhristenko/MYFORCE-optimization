@@ -115,6 +115,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 .header__sub {
@@ -145,7 +146,7 @@ header {
     width: 800px;
     height: 1px;
     margin-bottom: 8rem;
-    background-color: var(--main-white);
+    background: #D2D2D2;
 }
 
 /* Main (прибила футер к низу) */
@@ -180,7 +181,7 @@ header {
 
 .footer__title {
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 2rem;
     line-height: 140%;
     color: var(--main-white);
     max-width: 400px;
@@ -192,10 +193,18 @@ header {
 
 .footer__phone {
     font-weight: 400;
-    font-size: 1.75rem;
+    font-size: 2.8rem;
     line-height: 140%;
     margin-top: 24px;
     color: var(--main-white);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+.footer__phone:hover,
+.footer__phone:active {
+    text-decoration: underline;
+    text-decoration-color: var(--main-white);
 }
 
 .footer__right {
@@ -219,12 +228,14 @@ header {
     color: var(--main-gray);
     margin-bottom: 24px;
     opacity: 0.5;
+    font-size: 1.4rem;
 }
 
 .footer__right-down {
     display: flex;
     color: var(--main-gray);
     opacity: 0.5;
+    font-size: 1.4rem;
 }
 
 .footer__right-item {

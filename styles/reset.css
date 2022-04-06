@@ -177,6 +177,7 @@ header {
 
 .footer__left-up {
     display: flex;
+    align-items: center;
 }
 
 .footer__title {
@@ -242,3 +243,28 @@ header {
     margin-left: 20px;
 }
 
+
+
+/* Адаптив */
+
+@media screen and (max-width: 1024px) { 
+
+}
+
+
+@media screen and (max-width: 992px) { 
+}
+
+
+@media screen and (max-width: 768px) { 
+    html {
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 6px;
+    }
+}

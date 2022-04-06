@@ -1,6 +1,5 @@
 /* ресет, стили для хэдера и футера и адпатив */
 
-
 html, body {
     height: 100%;
     margin: 0;
@@ -9,6 +8,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
+/* для rem'ов */
 html {
     font-size: 10px;
 }
@@ -82,11 +82,54 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
     height: 20px;
 }
 
+.telegram {
+    width: 2.45rem;
+    height: 2.45rem;
+    border-radius: 50%;
+    border: 1px solid var(--main-white);
+}
 
+.telegram svg {
+    margin: auto;
+}
+
+
+.telegram:hover {
+    background-color: var(--main-white);
+}
+
+.telegram:hover path {
+    fill: var(--light-blue);
+}
 
 /* Header */
 
+header {
+    padding-top: 2.8rem;
+    padding-bottom: 2rem;
+    color: var(--main-white);
+    background: var(--dark-blue);
+}
 
+.header__outer {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.logo__text {
+    font-size: 1.6rem;
+}
+
+.header__bookmark {
+    width: 40rem;
+    height: 67rem;
+    opacity: 10%;
+    position: absolute;
+    top: 0;
+    left: 1180px;
+    background: var(--main-white);
+}
 
 /* Main (прибила футер к низу) */
 

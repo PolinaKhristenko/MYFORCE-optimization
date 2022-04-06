@@ -18,7 +18,7 @@ html, body {
     --medium-blue: #0041BE;
     --dark-blue: #0E2865;
     --main-white: #FFFFFF;
-
+    --main-gray: rgba(255, 255, 255, 0.6);
 }
 
 /* здесь добавила трансишн, чтобы у всех ссылок и кнопок он одинаковый 0,3 секи был. можно его теперь не выставлять индивидуально */
@@ -68,3 +68,100 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
     padding: 0 10px;
 }
 
+/* Зашеренные элементы */
+
+.logo {
+    width: 134.48px;
+    height: 20px;
+}
+
+.telegram {
+    width: 40px;
+    height: 40px;
+}
+
+/* Header */
+
+
+
+/* Main (прибила футер к низу) */
+
+.main {
+    flex: 1 1 auto;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+    padding: 40px 0 60px 0;
+    background: var(--dark-blue);
+
+}
+
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left {
+}
+
+.footer__left-up {
+    display: flex;
+}
+
+.footer__title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 140%;
+    color: var(--main-white);
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+.footer__left-down {
+}
+
+.footer__phone {
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 140%;
+    margin-top: 24px;
+    color: var(--main-white);
+}
+
+.footer__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__sub {
+    color: #C9C9C9;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 140%;
+    text-align: right;
+    margin: 4px 0 24px 0;
+}
+
+.footer__remark {
+    max-width: 400px;
+    text-align: right;
+    color: var(--main-gray);
+    margin-bottom: 24px;
+    opacity: 0.5;
+}
+
+.footer__right-down {
+    display: flex;
+    color: var(--main-gray);
+    opacity: 0.5;
+}
+
+.footer__right-item {
+    margin-left: 20px;
+}

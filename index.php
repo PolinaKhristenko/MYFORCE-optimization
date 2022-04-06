@@ -1,7 +1,5 @@
 <?php include'./includes/header.php'?> <!-- Хэдер -->
 
-    <div class="wrapper">
-
         <main class="main">
             
         </main>

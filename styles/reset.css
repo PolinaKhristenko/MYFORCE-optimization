@@ -1,4 +1,4 @@
-/* ресет, стили для хэдера и футера и адпатив */
+
 
 html, body {
     height: 100%;
@@ -8,7 +8,6 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/* для rem'ов */
 html {
     font-size: 10px;
 }
@@ -17,7 +16,6 @@ body {
     font-size: 16px;
 }
 
-/* переменные главных цветов */
 
 :root {
     --main-purple: #B61BFF;
@@ -28,7 +26,6 @@ body {
     --main-gray: rgba(255, 255, 255, 0.6);
 }
 
-/* здесь добавила трансишн, чтобы у всех ссылок и кнопок он одинаковый 0,3 секи был. можно его теперь не выставлять индивидуально */
 
 a, button {
     text-decoration: none;
@@ -152,14 +149,12 @@ header {
 .header__line {
     width: 800px;
     height: 1px;
-    margin-bottom: 8rem;
     background: #D2D2D2;
 }
 
 /* Main (прибила футер к низу) */
 
 .main {
-    background: var(--dark-blue); /* для теста */
     flex: 1 1 auto;
 }
 

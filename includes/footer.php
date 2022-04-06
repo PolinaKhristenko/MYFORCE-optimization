@@ -29,8 +29,11 @@
         </div>
     </div>
 </footer>
-<script src="./js/main.js"></script>
-<script src="./js/quiz.js"></script>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/jquery.maskedinput.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/quiz.js"></script>
 </body>
 </html>
 

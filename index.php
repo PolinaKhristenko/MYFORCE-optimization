@@ -6,7 +6,7 @@
                 <div class="container">
                     <div class="zero__body">
                         <div class="zero__support">
-                            <div class="zero__dash"></div>
+                            <div class="dash__white "></div>
                             <p class="zero__support-txt">Получи поддержку бизнеса по федеральному закону ФЗ №46 от 8 марта 2022 года</p>
                         </div>
                         <h1 class="zero__title">Запусти СВОЙ бизнес с нуля</h1>
@@ -22,6 +22,83 @@
                                 </svg>
                             </a> <!-- Ведёт вроде на квиз -->
                             <a class="btn__empty popup-btn">Консультация онлайн</a> <!-- Ведёт на модалку -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how">
+                <div class="container">
+                    <div class="count white">
+                        <div class="dash__white"></div>
+                        <p class="count__num">01</p>
+                    </div>
+                    <h3 class="title white">Как принять участие в программе по реинтеграции бизнеса</h3>
+                    <div class="how__body">
+                        <div class="how__left">
+                            <h6 class="how__title">
+                                У вас действующий бизнес?
+                            </h6>
+                            <p class="how__sub">
+                                Как это работает:
+                            </p>
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how1.svg" alt="">
+                                <p class="how__txt">Заполняете бриф с указанием сферы бизнеса</p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how2.svg" alt="">
+                                <p class="how__txt">Если ваша сфера попадает под ФЗ №46, то наш бизнес-консультант отправляет вам возможные программы реинтеграции</p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how3.svg" alt="">
+                                <p class="how__txt">Если вашей сферы бизнеса нет в перечне, то мы предложим вам альтернативный проект по оптимизации бизнеса</p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how4.svg" alt="">
+                                <p class="how__txt">Вы заключаете договор с указанием мер реинтеграции и оптимизации бизнеса</p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how5.svg" alt="">
+                                <p class="how__txt">Наши специалисты запускают проект в работы, а MYFORCE компенсирует часть расходов, чтобы Вам было еще комфортнее!</p>
+                            </div>
+                        </div>
+                        <div class="how__right">
+                             <h6 class="how__title">
+                                У вас нет бизнеса, но очень хотите открыть?
+                            </h6>
+                            <p class="how__sub">
+                                Как это работает:
+                            </p>
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how1.svg" alt="">
+                                <p class="how__txt">Заполняете бриф с указанием сферы бизнеса и описанием деятельности</p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how6.svg" alt="">
+                                <p class="how__txt">Наши бизнес-консультанты изучают информацию и составляют для Вас план по запуску start-up`а</p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how7.svg" alt="">
+                                <p class="how__txt">Вы заключаете договор с указанием мероприятий по запуску start-up`а</p>
+                            </div>
+
+                            <div class="how__item">
+                                <img class="how__img" src="./src/how8.svg" alt="">
+                                <p class="how__txt">Получаете частичное финансирование расходов за счет MYFORCE</p>
+                            </div>
+
+                            <div class="how__line"></div>
+                            <p class="how__consult-txt">Получите консультацию по программе</p>
+                            <a href="" class="btn__empty">Консультация по программе</a>
+                        </div>
+
                         </div>
                     </div>
                 </div>
@@ -54,6 +131,7 @@
                         </div>
                     </form>
                 </div>
+            </div>
         </main>
         <?php include'./includes/footer.php'?> <!-- Футер -->
     </div>

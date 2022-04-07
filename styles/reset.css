@@ -62,6 +62,10 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
             flex-direction: column;
 }
 
+.hidden {
+    display: none;
+}
+
 /* сам контейнер 1240, но добавила паддинг безопасности по 10px, чтобы не прилипало ниче */
 
 .container {
@@ -112,7 +116,6 @@ header {
 }
 
 .header__outer {
-    /*width: 800px;*/
     position: relative;
     display: flex;
     align-items: center;
@@ -197,7 +200,6 @@ header {
 }
 
 .square {
-    align-self: center;
     width: 5px;
     height: 5px;
     background: #FFF;

@@ -15,10 +15,12 @@
         <div class="container">
             <div class="header__outer">
                 <div class="header__inner d-flex align-items-center">
-                    <div class="header__item">
-                        <img class="logo" src="../src/logo.svg" alt="Логотип MYFORCE">
-                        <p class="header__sub">Экосистема для вашего бизнеса</p>
-                    </div>
+                    <a href="../index.php">
+                        <div class="header__item">
+                            <img class="logo" src="../src/logo.svg" alt="Логотип MYFORCE">
+                            <p class="header__sub">Экосистема для вашего бизнеса</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="header__inner">

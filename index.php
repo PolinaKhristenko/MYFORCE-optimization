@@ -43,27 +43,27 @@
                                 Как это работает:
                             </p>
                             <div class="how__item">
-                                <img class="how__img" src="./src/how1.svg" alt="">
+                                <img class="how__img" src="./src/how1.svg" alt="Иконка к тексту">
                                 <p class="how__txt">Заполняете бриф с указанием сферы бизнеса</p>
                             </div>
 
                             <div class="how__item">
-                                <img class="how__img" src="./src/how2.svg" alt="">
+                                <img class="how__img" src="./src/how2.svg" alt="Иконка к тексту">
                                 <p class="how__txt">Если ваша сфера попадает под ФЗ №46, то наш бизнес-консультант отправляет вам возможные программы реинтеграции</p>
                             </div>
 
                             <div class="how__item">
-                                <img class="how__img" src="./src/how3.svg" alt="">
+                                <img class="how__img" src="./src/how3.svg" alt="Иконка к тексту">
                                 <p class="how__txt">Если вашей сферы бизнеса нет в перечне, то мы предложим вам альтернативный проект по оптимизации бизнеса</p>
                             </div>
 
                             <div class="how__item">
-                                <img class="how__img" src="./src/how4.svg" alt="">
+                                <img class="how__img" src="./src/how4.svg" alt="Иконка к тексту">
                                 <p class="how__txt">Вы заключаете договор с указанием мер реинтеграции и оптимизации бизнеса</p>
                             </div>
 
                             <div class="how__item">
-                                <img class="how__img" src="./src/how5.svg" alt="">
+                                <img class="how__img" src="./src/how5.svg" alt="Иконка к тексту">
                                 <p class="how__txt">Наши специалисты запускают проект в работы, а MYFORCE компенсирует часть расходов, чтобы Вам было еще комфортнее!</p>
                             </div>
                         </div>
@@ -75,22 +75,22 @@
                                 Как это работает:
                             </p>
                             <div class="how__item">
-                                <img class="how__img" src="./src/how1.svg" alt="">
+                                <img class="how__img" src="./src/how1.svg" alt="Иконка к тексту">
                                 <p class="how__txt">Заполняете бриф с указанием сферы бизнеса и описанием деятельности</p>
                             </div>
 
                             <div class="how__item">
-                                <img class="how__img" src="./src/how6.svg" alt="">
+                                <img class="how__img" src="./src/how6.svg" alt="Иконка к тексту">
                                 <p class="how__txt">Наши бизнес-консультанты изучают информацию и составляют для Вас план по запуску start-up`а</p>
                             </div>
 
                             <div class="how__item">
-                                <img class="how__img" src="./src/how7.svg" alt="">
+                                <img class="how__img" src="./src/how7.svg" alt="Иконка к тексту">
                                 <p class="how__txt">Вы заключаете договор с указанием мероприятий по запуску start-up`а</p>
                             </div>
 
                             <div class="how__item">
-                                <img class="how__img" src="./src/how8.svg" alt="">
+                                <img class="how__img" src="./src/how8.svg" alt="Иконка к тексту">
                                 <p class="how__txt">Получаете частичное финансирование расходов за счет MYFORCE</p>
                             </div>
 
@@ -99,6 +99,132 @@
                             <a href="" class="btn__empty">Консультация по программе</a>
                         </div>
 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="what">
+                <div class="container">
+                    <div class="what__container">
+                        <div class="what__header">
+                            <div class="what__header-left">
+                                <div class="count black">
+                                    <div class="dash__black"></div>
+                                    <p class="count__num">02</p>
+                                </div>
+                                <h3 class="title black">Что такое <span style="font-weight: 700">MYFORCE BUSINESS</span></h3>
+                                <p class="what__header-sub">Это комплекс услуг и мероприятий, разработанный компаний MYFORCE с учетом ФЗ № 46 и направленный на реинтеграцию, оптимизацию, и автоматизацию микробизнеса РФ с учетом современных экономических и финансовых реалий!</p>
+                            </div>
+
+
+                            <div class="what__header-right">
+                                <img class="what__gradient" src="./src/gradient.svg" alt="Градиент">
+                                    <div class="what__header-line"></div>
+                                    <div class="what__header-important">
+                                        <p class="what__header-important-title">важно!</p>
+                                        <p class="what__header-important-txt">При запуске программы с MYFORCE вы получаете частичную компенсацию расходов на свой проект за счет льгот и системы поддержки микробизнеса компании</p>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="what__body">
+                            <p class="what__title"><span style="font-weight: 600;">Какие возможности доступны с</span> MYFORCE BUSINESS</p>
+                            <div class="what__block">
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what1.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Аудит маркетинга и рекламы</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">Столкнулись с блокировкой рекламных компаний в Instagram, Facebook, Google?</li>
+                                            <li class="what__item-point">Подскажим альтернативные варианты, поможем перевести маркетинг, подберем новые площадки, составляем маркетинговый план</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what2.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Аудит отдела продаж</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">Просели продажи в связи с новыми экономическими реалиями?</li>
+                                            <li class="what__item-point">Изучим УТП, найдем новые рынки сбыта, переупакуем продукт под современного покупателя, научим менеджеров продавать “по новому”</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what3.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Внедрение автоматизации и IT решений</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">Видите, что ваш бизнес не идет в ногу с конкурентами?</li>
+                                            <li class="what__item-point">Составим план автоматизации бизнеса, переведем компанию в цифровой мир, создадим «персональные» и «уникальные» IT решения специально под вас (от сайтов и CRM систем, до мобильных приложений и gamedev)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what4.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Внешнее управление и сопровождение бизнеса</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">Хотите расширить бизнес или делегировать управление?</li>
+                                            <li class="what__item-point">Комплексное временное управление бизнесом, подготовка консолидирующей отчетности, предоставление временного персонала, доведение бизнеса до планируемых показателей</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what5.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Аудит IT и автоматизации</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">Проблемы с хостингом, сайтом, онлайн-кассой, CRM?</li>
+                                            <li class="what__item-point">Порекомендуем местные IT решения, устраним ошибки, предложим варианты автоматизации, как у конкурентов!</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what6.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Аудит бизнес-процессов</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">Чувствуете, что бизнес уже не сможет приносить результат?</li>
+                                            <li class="what__item-point">Изучим специфику ниши, предложим альтернативу или замену бизнес-процессов, подскажем, как правильно перенаправить ресурсы</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what7.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Организация Start-up`а</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">Хотите запустить проект с нуля, но не знаете с чего начать, или ищите надежного партнера?</li>
+                                            <li class="what__item-point">MYFORCE BUSINESS поможет полностью упаковать новый бизнес, выведет его на конкурентный уровень, и гарантирует бизнес-показатели по договору!</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="what__item">
+                                    <img class="what__item-img" src="./src/what8.svg" alt="Иконка к тексту">
+                                    <div class="what__item-txt">
+                                        <h5 class="what__item-title">Кадры и обучение</h5>
+                                        <ul class="what__item-list">
+                                            <li class="what__item-point">Испытываете дефицит в профессиональных кадрах?</li>
+                                            <li class="what__item-point">Поможем найти и обучить нужных вам специалистов с гарантией трудоустройства после стажировки или испытательного срока!</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="what__line"></div>
+                            <div class="what__footer">
+                                <p class="what__footer-txt">Узнайте больше о ваших возможностях <span style="font-weight: 700;">с MYFORCE BUSINESS</span></p>
+                                <a href="" class="btn__empty-pink">Узнать о всех возможностях</a>
+                            </div>
                         </div>
                     </div>
                 </div>

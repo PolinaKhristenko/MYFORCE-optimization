@@ -15,10 +15,12 @@
         <div class="container">
             <div class="header__outer">
                 <div class="header__inner d-flex align-items-center">
-                    <div class="header__item">
-                        <img class="logo" src="../src/logo.svg" alt="Логотип MYFORCE">
-                        <p class="header__sub">Экосистема для вашего бизнеса</p>
-                    </div>
+                    <a href="../index.php">
+                        <div class="header__item">
+                            <img class="logo" src="../src/logo.svg" alt="Логотип MYFORCE">
+                            <p class="header__sub">Экосистема для вашего бизнеса</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="header__inner">
@@ -31,10 +33,34 @@
                         </a>
                         <a href="tel:8 495 118 39 34" class="phone">8 495 118 39 34</a>
                     </div>
+                    <div class="bookmark__outer">
+                        <div class="bookmark__inner"></div>
+                        <div class="bookmark__bonuses-outer">
+                            <p class="spacing-header">Реанимируй бизнес или запусти новый проект и воспользуйся</p>
+                            <div class="bookmark__bonuses-inner">
+                                <div class="bookmark__bonuses-container">
+                                    01
+                                    <div class="bookmark__bonuses-item">
+                                        <div class="square"></div>Налоговыми каникулами
+                                    </div>
+                                </div>
+                                <div class="bookmark__bonuses-container">
+                                    02
+                                    <div class="bookmark__bonuses-item">
+                                        <div class="square"></div>Низкой процентной <span>ставкой</span>
+                                    </div>
+                                </div>
+                                <div class="bookmark__bonuses-container">
+                                    03
+                                    <div class="bookmark__bonuses-item">
+                                        <div class="square"></div>Частичной компенсанцией <span>средств на start-up</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="header__bookmark"></div>
 
             <div class="header__line"></div>
     </header>

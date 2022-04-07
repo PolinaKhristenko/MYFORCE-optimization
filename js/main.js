@@ -15,13 +15,17 @@ $(document).ready(function () {
 
     const phone = document.getElementById('popup-phone');
     const name = document.getElementById('popup-name');
+    const url = "../pages/thanks.php";
 
     $('.popup-btn').on('click', () => $('.popup').fadeIn('fast').css({display: 'flex'}));
 
     $('#popup__btn').on('click', () => {
-        if (name.value.length > 0 && phone.value !== 0)
-            $('.popup').fadeOut('fast');
-    });
+        if (name.value.length > 0 && phone.value !== 0) {
+            $('.popup').fadeOut('fast', () => {
+                $(location).attr('href',url);
+            })
+    }
+});
 
     $('.popup, .popup__close').on('click', function (e) {
         if (e.target == this) {

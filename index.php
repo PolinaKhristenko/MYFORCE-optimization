@@ -276,7 +276,7 @@
                         <div class="project__right">
                             <div class="count white">
                                 <div class="dash__white"></div>
-                                <p class="count__num">01</p>
+                                <p class="count__num">03</p>
                             </div>
                             <h3 class="title white">Проект <span style="font-weight: 700;">MYFORCE</span></h3>
                             <p class="project__def">— это экосистема для предпринимателей, целью которой является построение здорового бизнес-сообщества в РФ и СНГ!</p>
@@ -289,6 +289,106 @@
                             </div>
                             <p class="project__txt">Мы объединяем в себе самый важный ресурс — опыт людей! А вы им пользуетесь!</p>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="startup">
+                <div class="container">
+                    <div class="startup__body">
+                        <div class="count white">
+                            <div class="dash__white"></div>
+                            <p class="count__num">04</p>
+                        </div>
+                        <h3 class="title white">Наши кейсы и STARTUP</h3>
+                        <div class="startup__block">
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup1.png" alt="Логотип компании">
+                                <h6 class="startup__title">Редизайн и поддержка SEO-сайта</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Анализ функционала сайта</li>
+                                    <li class="startup__point">Редизайн и разработка сайта</li>
+                                    <li class="startup__point">Поддержка интегрированных сервисов</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup2.png" alt="Логотип компании">
+                                <h6 class="startup__title">Редизайн и поддержка интернет-магазина</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Анализ функционала</li>
+                                    <li class="startup__point">Редизайн и разработка сайта с дополнением функционала</li>
+                                    <li class="startup__point">Интеграция с внешними сервисами</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup3.png" alt="Логотип компании">
+                                <h6 class="startup__title">Разработка и поддержка SEO-сайта</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Анализ ЦА</li>
+                                    <li class="startup__point">Дизайн и разработка сайта с возможностью онлайн-оплаты</li>
+                                    <li class="startup__point">Интеграция с Битрикс24, Робокассой</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup4.png" alt="Логотип компании">
+                                <h6 class="startup__title">Индвидиальное продвижение</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Анализ сферы</li>
+                                    <li class="startup__point">Запуск рекламных кампаний</li>
+                                    <li class="startup__point">Увеличение конверсии с 5% до 15%</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup5.png" alt="Логотип компании">
+                                <h6 class="startup__title">Продвижение в социальных сетях и на рекламных площадках</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Разработка маркетинговой стратегии</li>
+                                    <li class="startup__point">Настройка аккаунтов </li>
+                                    <li class="startup__point">Увеличилась конверсия с 5% до 13%</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup6.png" alt="Логотип компании">
+                                <h6 class="startup__title">Создание корпоративного сайта для онлайн-банкротства</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Дизайн и разработка сайта</li>
+                                    <li class="startup__point">Дизайн и разработка личного кабинета банкрота</li>
+                                    <li class="startup__point">Интеграция с внешними сервисами</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup7.png" alt="Логотип компании">
+                                <h6 class="startup__title">Проработка маркетинговой стратегии и продвижение</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Помощь в раскачке бренда</li>
+                                    <li class="startup__point">Коучинг</li>
+                                    <li class="startup__point">Маркетинговое сопровождение</li>
+                                </ul>
+                            </div>
+
+                            <div class="startup__item">
+                                <img class="startup__img" src="./src/startup8.png" alt="Логотип компании">
+                                <h6 class="startup__title">Корпоративный сайт и личный кабинет клиента</h6>
+                                <ul class="startup__list">
+                                    <li class="startup__point">Формирование корпоративного сайта  и разработка личного кабинета для онлайн-банкротства</li>
+                                    <li class="startup__point">Интеграция с внешними сервисами</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="startup__line"></div>
+                        <p class="startup__txt">Оптимизируй свой бизнес с частичной компенсацие расходов</p>
+                        <a href="pages/quiz.php" class="btn__pink">Оптимизировать свой бизнес
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="11" cy="11" r="10.5" stroke="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.1875 10.3125C6.00516 10.3125 5.8303 10.3849 5.70136 10.5139C5.57243 10.6428 5.5 10.8177 5.5 11C5.5 11.1824 5.57243 11.3572 5.70136 11.4862C5.8303 11.6151 6.00516 11.6875 6.1875 11.6875H14.1529L11.2007 14.6383C11.1368 14.7022 11.0861 14.7781 11.0515 14.8616C11.0169 14.9451 10.9991 15.0346 10.9991 15.125C10.9991 15.2154 11.0169 15.3049 11.0515 15.3884C11.0861 15.472 11.1368 15.5478 11.2007 15.6118C11.2647 15.6757 11.3406 15.7264 11.4241 15.761C11.5076 15.7956 11.5971 15.8134 11.6875 15.8134C11.7779 15.8134 11.8674 15.7956 11.9509 15.761C12.0344 15.7264 12.1103 15.6757 12.1742 15.6118L16.2992 11.4868C16.3633 11.4229 16.4141 11.347 16.4487 11.2635C16.4834 11.18 16.5012 11.0904 16.5012 11C16.5012 10.9096 16.4834 10.82 16.4487 10.7365C16.4141 10.653 16.3633 10.5771 16.2992 10.5133L12.1742 6.38826C12.1103 6.32434 12.0344 6.27364 11.9509 6.23904C11.8674 6.20445 11.7779 6.18665 11.6875 6.18665C11.5971 6.18665 11.5076 6.20445 11.4241 6.23904C11.3406 6.27364 11.2647 6.32434 11.2007 6.38826C11.1368 6.45219 11.0861 6.52807 11.0515 6.61159C11.0169 6.6951 10.9991 6.78462 10.9991 6.87501C10.9991 6.96541 11.0169 7.05492 11.0515 7.13844C11.0861 7.22196 11.1368 7.29784 11.2007 7.36176L14.1529 10.3125H6.1875Z" fill="white"/>
+                            </svg>
+                        </a> <!-- Ведёт на квиз -->
                     </div>
                 </div>
             </section>

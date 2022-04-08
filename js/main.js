@@ -1,5 +1,13 @@
 $(document).ready(function () {
 
+    // Ответы на вопросы
+
+    $('.ask__question').on('click', function(event){
+        $(this).toggleClass('active').next().slideToggle(300);
+        $('.ask__arrow').toggleClass('active');
+    });
+
+
     // МАСКА НА НОМЕР ПО ТИПУ-TEL
     $.mask.definitions["9"] = false;
     $.mask.definitions["5"] = "[0-9]";

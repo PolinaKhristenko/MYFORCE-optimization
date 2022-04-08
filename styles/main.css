@@ -732,7 +732,7 @@ a:focus {
 /* Begin */
 
 .begin {
-    padding: 90px 100px;
+    padding: 90px 110px;
 }
 
 .begin__item {
@@ -786,6 +786,90 @@ a:focus {
     gap: 25px;
 }
 
+
+
+
+/* Ask */
+
+.ask {
+    padding-bottom: 100px;
+}
+
+.ask__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 48px;
+    gap: 32px;
+}
+
+.ask__item {
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    border-bottom: 0.5px solid rgba(81, 81, 81, 0.4);
+    padding-bottom: 8px;
+}
+
+.ask__question {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.ask__question-txt {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 140%;
+    color: #151515;
+    max-width: 470px;
+}
+
+.ask__arrow {
+    position: relative;
+    padding: 10px;
+}
+
+.ask__arrow::before,
+.ask__arrow::after {
+    content: " ";
+    width: 11px;
+    height: 1px;
+    background-color: #0E2865;
+    left: 1rem;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+}
+
+.ask__arrow::before {
+    transform: rotate(40deg);
+    left: 0;
+
+}
+
+.ask__arrow::after {
+    transform: rotate(-40deg);
+    left: 8px;
+}
+
+
+.ask__arrow.active::before {
+    transform: rotate(-40deg);
+}
+
+.ask__arrow.active::after {
+    transform: rotate(40deg);
+}
+
+
+.ask__answer {
+    display: none;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 140%;
+    color: #515151;
+    margin-top: 12px;
+}
 
 
 

@@ -9,6 +9,8 @@
     --main-gray: rgba(255, 255, 255, 0.6);
 }
 
+
+
 /* Reuse */
 
 a:focus {
@@ -102,9 +104,13 @@ a:focus {
 }
 
 .dash__black {
-    border: 1px solid #151515;
+    border: 1px solid var(--dark-blue);
     width: 40px;
     margin-right: 12px;
+}
+
+.blue {
+    color: var(--dark-blue);
 }
 
 .black {
@@ -720,6 +726,65 @@ a:focus {
 }
 
 
+
+
+
+/* Begin */
+
+.begin {
+    padding: 90px 100px;
+}
+
+.begin__item {
+    width: 820px;
+    border-bottom: 0.5px solid #49B1FF;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 12px;
+}
+
+.begin__body {
+    position: relative;
+}
+
+.begin__gradient {
+    position: absolute;
+    transform: rotate(271deg);
+    left: -25%;
+    top: 20%;
+    width: 777px;
+    filter: blur(20px);
+
+}
+
+.begin__block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    gap: 40px;
+    margin-top: 48px;
+}
+
+.begin__num {
+    margin-right: 250px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 140%;
+    color: #515151;
+}
+
+.begin__txt {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 140%;
+    color: #151515;
+    max-width: 400px;
+}
+
+.begin__btn {
+    display: flex;
+    gap: 25px;
+}
 
 
 

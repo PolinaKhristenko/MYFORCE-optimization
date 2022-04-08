@@ -96,7 +96,7 @@
 
                             <div class="how__line"></div>
                             <p class="how__consult-txt">Получите консультацию по программе</p>
-                            <a href="" class="btn__empty popup-btn">Консультация по программе</a> <!-- Ведёт на попап-->
+                            <a class="btn__empty popup-btn">Консультация по программе</a> <!-- Ведёт на попап-->
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                     <div class="what__container">
                         <div class="what__header">
                             <div class="what__header-left">
-                                <div class="count black">
+                                <div class="count blue">
                                     <div class="dash__black"></div>
                                     <p class="count__num">02</p>
                                 </div>
@@ -221,7 +221,7 @@
                             <div class="what__line"></div>
                             <div class="what__footer">
                                 <p class="what__footer-txt">Узнайте больше о ваших возможностях <span style="font-weight: 700;">с MYFORCE BUSINESS</span></p>
-                                <a href="" class="btn__empty-pink popup-btn">Узнать о всех возможностях</a> <!-- Ведёт на попап-->
+                                <a class="btn__empty-pink popup-btn">Узнать о всех возможностях</a> <!-- Ведёт на попап-->
                             </div>
                         </div>
                     </div>
@@ -445,6 +445,67 @@
                                     <p class="say__city">Тула, Орел</p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="begin">
+                <div class="container">
+                    <div class="begin__body">
+                        <img class="begin__gradient" src="./src/gradient.svg" alt="Градиент" />
+                        <div class="count blue">
+                            <div class="dash__black"></div>
+                            <p class="count__num">06</p>
+                        </div>
+                        <h3 class="title black">С чего начать или как сделать первый шаг?</h3>
+                        <div class="begin__block">
+                            <div class="begin__item">
+                                <p class="begin__num">1</p>
+                                <p class="begin__txt">Взгляните на свой бизнес критично - в чем вы чувствуете, что не дотягиваете</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">2</p>
+                                <p class="begin__txt">Заполните анкету и укажите данные о себе</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">3</p>
+                                <p class="begin__txt">Пообщайтесь с нашим консультантом по телефону и задайте вопросы</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">4</p>
+                                <p class="begin__txt">Изучите готовое предложение от MYFORCE BUSINESS</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">5</p>
+                                <p class="begin__txt">Заключите договор</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">6</p>
+                                <p class="begin__txt">Получите частичную компенсацию расходов на проект</p>
+                            </div>
+
+                            <div class="begin__item">
+                                <p class="begin__num">7</p>
+                                <p class="begin__txt" style="font-weight: 600;">Реинтегрируйте, оптимизируйте, или запустите с нуля свой бизнес</p>
+                            </div>
+
+                            <div class="begin__btn">
+                            <a href="pages/quiz.php" class="btn__pink">Заполнить анкету
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="11" cy="11" r="10.5" stroke="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.1875 10.3125C6.00516 10.3125 5.8303 10.3849 5.70136 10.5139C5.57243 10.6428 5.5 10.8177 5.5 11C5.5 11.1824 5.57243 11.3572 5.70136 11.4862C5.8303 11.6151 6.00516 11.6875 6.1875 11.6875H14.1529L11.2007 14.6383C11.1368 14.7022 11.0861 14.7781 11.0515 14.8616C11.0169 14.9451 10.9991 15.0346 10.9991 15.125C10.9991 15.2154 11.0169 15.3049 11.0515 15.3884C11.0861 15.472 11.1368 15.5478 11.2007 15.6118C11.2647 15.6757 11.3406 15.7264 11.4241 15.761C11.5076 15.7956 11.5971 15.8134 11.6875 15.8134C11.7779 15.8134 11.8674 15.7956 11.9509 15.761C12.0344 15.7264 12.1103 15.6757 12.1742 15.6118L16.2992 11.4868C16.3633 11.4229 16.4141 11.347 16.4487 11.2635C16.4834 11.18 16.5012 11.0904 16.5012 11C16.5012 10.9096 16.4834 10.82 16.4487 10.7365C16.4141 10.653 16.3633 10.5771 16.2992 10.5133L12.1742 6.38826C12.1103 6.32434 12.0344 6.27364 11.9509 6.23904C11.8674 6.20445 11.7779 6.18665 11.6875 6.18665C11.5971 6.18665 11.5076 6.20445 11.4241 6.23904C11.3406 6.27364 11.2647 6.32434 11.2007 6.38826C11.1368 6.45219 11.0861 6.52807 11.0515 6.61159C11.0169 6.6951 10.9991 6.78462 10.9991 6.87501C10.9991 6.96541 11.0169 7.05492 11.0515 7.13844C11.0861 7.22196 11.1368 7.29784 11.2007 7.36176L14.1529 10.3125H6.1875Z" fill="white"/>
+                                </svg>
+                            </a> <!-- Ведёт на квиз -->
+
+                            <a class="btn__empty-pink popup-btn">Получить консультацию</a> <!-- Ведёт на попап-->
+
+                        </div>
                         </div>
                     </div>
                 </div>

@@ -393,6 +393,63 @@
                 </div>
             </section>
 
+            <section class="say">
+                <div class="container">
+                    <div class="say__body">
+                    <div class="count white">
+                            <div class="dash__white"></div>
+                            <p class="count__num">05</p>
+                        </div>
+                        <h3 class="title white">Что говорят о нас</h3>
+                        <div class="say__block">
+                            <div class="say__item">
+                                <img class="say__img" src="./src/say1.png" alt="Фотография человека, оставившего отзыв" />
+                                <p class="say__name">Суров Алексей</p>
+                                <p class="say__txt">Партнерство с компанией MYFORCE позволило выйти на новый уровень развития бизнеса. Понравились сроки выполнения работ, а также реальный результат от сотрудничества. Хочется отметить, что на протяжении всего времени действовала постоянная поддержка со стороны партнеров, в прямом смысле 24/7</p>
+                                <div class="say__line"></div>
+                                <div class="say__location">
+                                    <img class="say__icon" src="./src/location.svg" alt="Иконка локации" />
+                                    <p class="say__city">Ставрополь</p>
+                                </div>
+                            </div>
+
+                            <div class="say__item">
+                                <img class="say__img" src="./src/say2.png" alt="Фотография человека, оставившего отзыв" />
+                                <p class="say__name">Артин Василий</p>
+                                <p class="say__txt">Я начал сотрудничество с компанией в самом обычном пакете, а на конец 2018 года имел оборот более 80 банкротов в месяц. Выражаю благодарность за отличный старт, а также вижу большие перспективы от совместных проектов</p>
+                                <div class="say__line"></div>
+                                <div class="say__location">
+                                    <img class="say__icon" src="./src/location.svg" alt="Иконка локации" />
+                                    <p class="say__city">Москва, Саратов</p>
+                                </div>
+                            </div>
+
+                            <div class="say__item">
+                                <img class="say__img" src="./src/say3.png" alt="Фотография человека, оставившего отзыв" />
+                                <p class="say__name">Сырчин Алексей</p>
+                                <p class="say__txt">Начал свой бизнес по программе франчайзинга MYFORCE и до сих пор активно развиваю сферу благодаря профессиональной поддержке, как с технической, так и с экспертной стороны</p>
+                                <div class="say__line"></div>
+                                <div class="say__location">
+                                    <img class="say__icon" src="./src/location.svg" alt="Иконка локации" />
+                                    <p class="say__city">Екатеринбург</p>
+                                </div>
+                            </div>
+
+                            <div class="say__item">
+                                <img class="say__img" src="./src/say4.png" alt="Фотография человека, оставившего отзыв" />
+                                <p class="say__name">Татьяна Михалева</p>
+                                <p class="say__txt">Выражаю благодарность за добросовестное партнерство компании MYFORCE. С ними у меня произошел карьерный рост в юридической сфере. Желаю компании дальнейшего развития и процветания</p>
+                                <div class="say__line"></div>
+                                <div class="say__location">
+                                    <img class="say__icon" src="./src/location.svg" alt="Иконка локации" />
+                                    <p class="say__city">Тула, Орел</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 <!--        TODO: переход на СПАСИБО-->
             <div class="popup" id="popup">
                 <div class="popup__body">

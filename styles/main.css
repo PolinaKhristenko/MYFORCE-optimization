@@ -495,8 +495,87 @@ a:focus {
 
 
 
+/* Project */
 
-/* блок z-index 3 */
+
+.project {
+    z-index: 3;
+    padding: 100px 0;
+    background: var(--dark-blue);
+    position: relative;
+} 
+
+.project__gradient {
+    filter: blur(20px);
+    transform: rotate(287deg);
+    position: absolute;
+    left: -20%;
+    top: 200px;
+}
+
+.project__body {
+    display: flex;
+}
+
+.project__left {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(28px);
+    border-radius: 2px;
+    padding: 40px 70px 40px 40px;
+}
+
+.project__list {
+    color: #fff;
+    max-width: 391px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.project__point {
+    list-style-type: square;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.project__right {
+    margin-left: 125px;
+    padding-top: 15px;
+}
+
+.project__def {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 140%;
+    color: #F1F1F1;
+    margin: 16px 0 60px 0;
+    max-width: 505px;
+}
+
+.project__photos {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 48px;
+}
+
+.project__img {
+    width: 105px;
+    height: 105px;
+}
+.project__txt {
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 140%;
+    max-width: 650px;
+}
+
+
+
+
+
 
 
 /* POPUP */

@@ -98,8 +98,6 @@
                             <p class="how__consult-txt">Получите консультацию по программе</p>
                             <a href="" class="btn__empty">Консультация по программе</a> <!-- Ведёт на попап-->
                         </div>
-
-                        </div>
                     </div>
                 </div>
             </section>
@@ -248,6 +246,53 @@
                 </div>
             </section>
 
+            <section class="project">
+                <img class="project__gradient" src="./src/gradient.svg" alt="Градиент" />
+                <div class="container">
+                    <div class="project__body">
+                        <div class="project__left">
+                            <ul class="project__list">
+                                <li class="project__point">
+                                Бизнес-аналитики, налоговые юристы, специалисты по рискам, и многие другие
+                                </li>
+
+                                <li class="project__point">
+                                Более 50 специалистов по маркетингу и рекламе
+                                </li>
+
+                                <li class="project__point">
+                                Более 100 специалистов по продажам, бизнесу, инвестициям, и финансам
+                                </li>
+
+                                <li class="project__point">
+                                HR специалисты с 10 летним стажем закрытия ТОП вакансии в России
+                                </li>
+
+                                <li class="project__point">
+                                Более 20 IT специалистов с опытом в мировых проектах
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="project__right">
+                            <div class="count white">
+                                <div class="dash__white"></div>
+                                <p class="count__num">01</p>
+                            </div>
+                            <h3 class="title white">Проект <span style="font-weight: 700;">MYFORCE</span></h3>
+                            <p class="project__def">— это экосистема для предпринимателей, целью которой является построение здорового бизнес-сообщества в РФ и СНГ!</p>
+                            <div class="project__photos">
+                                <img class="project__img" src="./src/project1.png" alt="Сотрудник компании MYFORCE" />
+                                <img class="project__img" src="./src/project2.png" alt="Сотрудник компании MYFORCE" />
+                                <img class="project__img" src="./src/project3.png" alt="Сотрудник компании MYFORCE" />
+                                <img class="project__img" src="./src/project4.png" alt="Сотрудник компании MYFORCE" />
+                                <img class="project__img" src="./src/project5.png" alt="Сотрудник компании MYFORCE" />
+                            </div>
+                            <p class="project__txt">Мы объединяем в себе самый важный ресурс — опыт людей! А вы им пользуетесь!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 <!--        TODO: переход на СПАСИБО-->
             <div class="popup" id="popup">
                 <div class="popup__body">
@@ -278,4 +323,5 @@
             </div>
         </main>
         <?php include'./includes/footer.php'?> <!-- Футер -->
+
     </div>

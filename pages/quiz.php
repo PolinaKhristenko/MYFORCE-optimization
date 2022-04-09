@@ -245,7 +245,6 @@
                             <div class="progress-bar__line" id="progress-bar"></div>
                         </div>
                     </div>
-                    <img class="thanks__gradient" src="../src/gradient.svg" alt="Градиент"/>
                 </div>
             </div>
             <img class="thanks__gradient" src="../src/gradient.svg" alt="Градиент" />

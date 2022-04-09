@@ -47,7 +47,7 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
 
 *, *::before, *::after {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -58,8 +58,8 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .hidden {
@@ -69,7 +69,7 @@ a, h1, p, li, ul, h1, h2, h3, h4, div, h5, h6 {
 /* сам контейнер 1240, но добавила паддинг безопасности по 10px, чтобы не прилипало ниче */
 
 .container {
-    max-width: 1260px; 
+    max-width: 1260px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -311,27 +311,27 @@ header {
 
 /* Адаптив */
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
     .container {
-        max-width: 992px; 
+        max-width: 992px;
     }
 }
 
 
-@media screen and (max-width: 992px) { 
+@media screen and (max-width: 992px) {
     .container {
-        max-width: 768px; 
+        max-width: 768px;
     }
 }
 
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     html {
         font-size: 8px;
     }
 
     .container {
-        max-width: 576px; 
+        max-width: 576px;
     }
 
     .footer__body {
@@ -372,7 +372,7 @@ header {
 @media screen and (max-width: 576px) {
 
     .container {
-        max-width: 100%; 
+        max-width: 100%;
         padding: 0 20px;
     }
 

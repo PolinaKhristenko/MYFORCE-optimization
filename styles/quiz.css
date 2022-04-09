@@ -2,8 +2,16 @@
 
 /* STEP 1 */
 .quiz__container {
+    display: flex;
+    min-height: 100%;
     color: var(--main-white);
     background: var(--dark-blue);
+}
+
+.quiz__line {
+    width: 100% !important;
+    height: 1px;
+    background: var(--main-white);
 }
 
 #step-1,

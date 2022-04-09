@@ -33,8 +33,6 @@
     <script src="../js/jquery.maskedinput.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/quiz.js"></script>
-</body>
-</html>
 
 </body>
 </html>

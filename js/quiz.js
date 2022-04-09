@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    // QUIZ
     var step = 1;
     const quizName = document.getElementById('quizName');
     const btnNext = $('.btn-next');

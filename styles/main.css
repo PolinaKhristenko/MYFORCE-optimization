@@ -518,7 +518,7 @@ a:focus {
     padding: 100px 0;
     background: var(--dark-blue);
     position: relative;
-} 
+}
 
 .project__gradient {
     filter: blur(20px);
@@ -812,7 +812,7 @@ a:focus {
     justify-content: space-between;
 }
 
-.ask__rihgt, 
+.ask__rihgt,
 .ask__left {
     display: flex;
     flex-direction: column;
@@ -919,7 +919,7 @@ a:focus {
 
 
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
     .begin__block {
         margin-left: 0;
     }
@@ -947,7 +947,7 @@ a:focus {
 }
 
 
-@media screen and (max-width: 992px) { 
+@media screen and (max-width: 992px) {
     .how__right {
         padding-left: 20px;
     }
@@ -977,7 +977,7 @@ a:focus {
 }
 
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .ask {
         padding-bottom: 20px;
     }
@@ -1130,7 +1130,7 @@ a:focus {
     .what__footer {
         flex-wrap: wrap;
     }
-    
+
     .ask__item {
         width: 100%;
     }

@@ -11,30 +11,25 @@ $(document).ready(function () {
 
 
     // POPUP
-    // TODO: переход на СПАСИБО
-
     const phone = document.getElementById('popup-phone');
     const name = document.getElementById('popup-name');
+    const popupBtn = $('.popup-btn');
     const url = "../pages/thanks.php";
 
-    $('.popup-btn').on('click', () => $('.popup').fadeIn('fast').css({display: 'flex'}));
+    popupBtn.on('click', () => $('.popup').fadeIn('fast').css({display: 'flex'}));
 
     $('#popup__btn').on('click', () => {
         if (name.value.length > 0 && phone.value !== 0) {
             $('.popup').fadeOut('fast', () => {
-                $(location).attr('href',url);
+                $(location).attr('href', url);
             })
-    }
-});
+        }
+    });
 
     $('.popup, .popup__close').on('click', function (e) {
         if (e.target == this) {
             $('.popup').fadeOut('fast');
         }
-    });
-
-    $('.popup-btn').oneTime("1s", () => {
-        $('.popup').fadeIn('fast').css({display: 'flex'});
     });
 
 });

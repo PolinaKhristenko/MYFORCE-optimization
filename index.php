@@ -96,7 +96,7 @@
 
                             <div class="how__line"></div>
                             <p class="how__consult-txt">Получите консультацию по программе</p>
-                            <a href="" class="btn__empty">Консультация по программе</a> <!-- Ведёт на попап-->
+                            <a class="btn__empty popup-btn">Консультация по программе</a> <!-- Ведёт на попап-->
                         </div>
                     </div>
                 </div>
@@ -221,7 +221,7 @@
                             <div class="what__line"></div>
                             <div class="what__footer">
                                 <p class="what__footer-txt">Узнайте больше о ваших возможностях <span style="font-weight: 700;">с MYFORCE BUSINESS</span></p>
-                                <a href="" class="btn__empty-pink">Узнать о всех возможностях</a> <!-- Ведёт на попап-->
+                                <a class="btn__empty-pink popup-btn">Узнать о всех возможностях</a> <!-- Ведёт на попап-->
                             </div>
                         </div>
                     </div>
@@ -393,7 +393,6 @@
                 </div>
             </section>
 
-<!--        TODO: переход на СПАСИБО-->
             <div class="popup" id="popup">
                 <div class="popup__body">
                     <h3 class="popup__title">Получите консультацию по программе</h3>

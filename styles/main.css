@@ -27,6 +27,9 @@ a:focus {
     padding: 12px 12px 12px 28px;
     gap: 16px;
     max-width: fit-content;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .btn__pink circle {
@@ -66,6 +69,9 @@ a:focus {
     border-radius: 40px;
     padding: 12px 28px;
     background: transparent;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .btn__empty:hover,
@@ -86,6 +92,9 @@ a:focus {
     border-radius: 40px;
     padding: 12px 28px;
     background: transparent;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .btn__empty-pink:hover,
@@ -562,6 +571,7 @@ a:focus {
 
 .project__photos {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     margin-bottom: 48px;
 }
@@ -732,7 +742,7 @@ a:focus {
 /* Begin */
 
 .begin {
-    padding: 90px 110px;
+    padding: 90px 0 110px 0;
 }
 
 .begin__item {
@@ -760,7 +770,7 @@ a:focus {
 .begin__block {
     display: flex;
     flex-direction: column;
-    margin-left: 400px;
+    margin-left: 30%;
     gap: 40px;
     margin-top: 48px;
 }
@@ -877,6 +887,169 @@ a:focus {
     line-height: 140%;
     color: #515151;
     margin-top: 12px;
+}
+
+
+
+
+
+
+/* Adaptive */
+
+
+@media screen and (max-width: 1024px) { 
+    .begin__block {
+        margin-left: 0;
+    }
+
+    .begin__gradient {
+        display: none;
+    }
+
+    .ask__item {
+        width: 400px;
+    }
+
+    .what__gradient {
+        display: none;
+    }
+
+    .what__header-right {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) { 
+    .how__right {
+        padding-left: 20px;
+    }
+
+    .how__left {
+        padding-right: 20px;
+    }
+
+    .project__right {
+        margin-left: 20px;
+    }
+
+    .project__left {
+        padding: 20px;
+    }
+
+    .ask__item {
+        width: 320px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 768px) { 
+    .ask {
+        padding-bottom: 20px;
+    }
+
+    .ask__body {
+        flex-direction: column;
+    }
+
+    .begin__num {
+        margin-right: 10px;
+    }
+
+    .begin__item {
+        width: 100%;
+    }
+
+    .project__gradient {
+        display: none;
+    }
+
+    .what__container {
+        padding: 10px;
+    }
+
+    .what__block {
+        gap: 20px;
+    }
+
+    .zero__gradient {
+        display: none;
+    }
+
+    .zero {
+        padding: 20px 0;
+    }
+
+
+    .how {
+        padding-bottom: 20px;
+    }
+
+    .what {
+        padding-bottom: 20px;
+    }
+
+    .know {
+        padding: 20px 0;
+    }
+
+    .project {
+        padding: 20px 0;
+    }
+
+    .startup__block {
+        margin-top: 20px;
+    }
+
+    .say {
+        padding: 20px 0;
+    }
+
+    .say__txt {
+        height: auto;
+    }
+
+    .how__left {
+        padding: 20px;
+    }
+
+    .startup__item {
+        height: 280px;
+    }
+
+    .project__body {
+        flex-direction: column-reverse;
+    }
+
+    .project__txt {
+        margin: 20px 0;
+    }
+
+    .what__header {
+        margin-bottom: 20px;
+    }
+
+    .begin {
+        padding: 20px 0;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .what__block {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+    }
+
+    .how__body {
+        flex-direction: column;
+    }
 }
 
 

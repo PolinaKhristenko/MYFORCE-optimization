@@ -1013,6 +1013,10 @@ a:focus {
         margin-right: 10px;
     }
 
+    .project__right {
+        margin-left: 0;
+    }
+
     .begin__item {
         width: 100%;
     }

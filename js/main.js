@@ -4,7 +4,8 @@ $(document).ready(function () {
 
     $('.ask__question').on('click', function(event){
         $(this).toggleClass('active').next().slideToggle(300);
-        $('.ask__arrow').toggleClass('active');
+        // $('.ask__arrow').toggleClass('active');
+        $(this).children().eq(1).toggleClass('active');
     });
 
 

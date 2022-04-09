@@ -789,6 +789,7 @@ a:focus {
 
 
 
+
 /* Ask */
 
 .ask {
@@ -796,10 +797,17 @@ a:focus {
 }
 
 .ask__body {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     margin-top: 48px;
+    justify-content: space-between;
+}
+
+.ask__rihgt, 
+.ask__left {
+    display: flex;
+    flex-direction: column;
     gap: 32px;
+    align-items: flex-start;
 }
 
 .ask__item {

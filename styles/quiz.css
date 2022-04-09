@@ -8,6 +8,12 @@
     background: var(--dark-blue);
 }
 
+.quiz__line {
+    width: 100% !important;
+    height: 1px;
+    background: var(--main-white);
+}
+
 #step-1,
 #step-2,
 #step-3,

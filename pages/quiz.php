@@ -154,7 +154,6 @@
                             Просто узнать о возможностях
                         </label>
                     </div>
-                    <div class="quiz__line"></div>
                 </form>
 
                 <div class="quiz__footer">
@@ -249,7 +248,7 @@
                 </div>
             </div>
             <img class="thanks__gradient" src="../src/gradient.svg" alt="Градиент" />
-            <div class="quiz__line"></div>
         </section>
     </main>
+    <div class="quiz__line"></div>
 <?php include'../includes/footer.php'?>

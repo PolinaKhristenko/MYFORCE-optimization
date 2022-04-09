@@ -61,6 +61,5 @@
                     </div>
                 </div>
             </div>
-
             <div class="header__line"></div>
     </header>

@@ -28,7 +28,7 @@ $(document).ready(function () {
     popupBtn.on('click', () => $('.popup').fadeIn('fast').css({display: 'flex'}));
 
     $('#popup__btn').on('click', () => {
-        if (name.value.length > 0 && phone.value !== 0) {
+        if (name.value.length > 0 && phone.value.length > 0) {
             $('.popup').fadeOut('fast', () => {
                 $(location).attr('href', url);
             })

@@ -2,7 +2,14 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Оптимизация бизнеса MYFORCE</title>
+
+    <meta name="keywords" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <meta name="description" content="">
+    <meta property="og:url" content="">
+
+    <title>MYFORCE</title>
 
     <meta name="viewport" content="width=device-width">
 

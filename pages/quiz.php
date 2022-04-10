@@ -98,7 +98,7 @@
 
                     <div>
                         <div class="QuizTitle">Опишите ваш бизнес</div>
-                        <textarea name="aboutBusiness" id="aboutBusiness" cols="60" rows="8" placeholder="Введите текст" required></textarea>
+                        <textarea name="aboutBusiness" id="aboutBusiness" cols="30" rows="8" placeholder="Введите текст" required></textarea>
                     </div>
                 </form>
 
@@ -244,10 +244,9 @@
                             <div class="progress-bar__line" id="progress-bar"></div>
                         </div>
                     </div>
-                    <img class="thanks__gradient" src="../src/gradient.svg" alt="Градиент"/>
                 </div>
             </div>
-            <img class="thanks__gradient" src="../src/gradient.svg" alt="Градиент" />
+            <img class="quiz__gradient" src="../src/gradient.svg" alt="Градиент" />
         </section>
     </main>
     <div class="quiz__line"></div>

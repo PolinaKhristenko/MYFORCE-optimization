@@ -963,6 +963,15 @@ a:focus {
     }
 
 
+    .begin__num {
+        margin-right: 20px;
+    }
+
+    .begin__item {
+        width: 100%;
+    }
+
+
 }
 
 
@@ -1005,20 +1014,21 @@ a:focus {
         padding-bottom: 20px;
     }
 
+    .say__item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .say__line {
+        width: 100%;
+    }
+
     .ask__body {
         flex-direction: column;
     }
 
-    .begin__num {
-        margin-right: 10px;
-    }
-
     .project__right {
         margin-left: 0;
-    }
-
-    .begin__item {
-        width: 100%;
     }
 
 
@@ -1088,11 +1098,15 @@ a:focus {
     }
 
     .startup__item {
-        width: 295px;
+        width: 265px;
     }
 
     .footer {
         padding: 20px 0;
+    }
+
+    .btn__empty {
+        padding: 12px 20px;
     }
 
 }
@@ -1146,7 +1160,8 @@ a:focus {
     }
 
     .startup__item {
-        height: 250px;
+        height: auto;
+        max-width: 100%;
         width: 100%;
     }
 

@@ -6,6 +6,10 @@
     min-height: 100%;
     color: var(--main-white);
     background: var(--dark-blue);
+    background-image: url("../src/gradient_quiz.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .quiz__line {
@@ -247,18 +251,12 @@ textarea:focus {
     #quiz .container {
         max-width: 768px;
     }
-
-    .quiz__gradient {
-        display: none;
-    }
-
 }
 
 @media screen and (max-width: 768px) {
     #quiz .container {
         max-width: 576px;
     }
-
 }
 
 @media screen and (max-width: 576px) {

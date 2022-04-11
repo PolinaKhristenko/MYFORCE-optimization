@@ -246,7 +246,6 @@
                     </div>
                 </div>
             </div>
-            <img class="quiz__gradient" src="../src/gradient.svg" alt="Градиент" />
         </section>
     </main>
     <div class="quiz__line"></div>

@@ -900,8 +900,108 @@ a:focus {
 }
 
 
+/* POPUP */
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.popup__body {
+    position: relative;
+    max-height: 55rem;
+    padding: 5.2rem 5.7rem 10rem;
+    background: var(--main-white);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../src/gradient.svg");
+    background-position: top left;
+}
+
+.popup__title {
+    font-size: 3.6rem;
+    line-height: 50px;
+    width: 70%;
+    word-break: break-word;
+    margin-bottom: 5rem;
+}
+
+.popup__item {
+    display: flex;
+    flex-direction: column;
+}
 
 
+.popup__item input {
+    width: 30rem;
+    border-radius: 4rem;
+    padding: 12px 16px;
+    border: 1px solid #989898;
+    margin-bottom: 1rem;
+}
+
+#popup input:focus {
+    font-weight: 600;
+}
+
+.popup__item input:first-of-type {
+    margin-bottom: 1.6rem;
+}
+
+#popup .popup__btn-container {
+    width: 30rem;
+    font-size: 1.6rem;
+    padding: 1.2rem 0 1.2rem 7rem;
+    color: #ED1BFF;
+    border-radius: 4rem;
+    border: 1px solid #ED1BFF;
+    background: var(--main-white);
+}
+
+#popup .popup__btn-container:hover {
+    color: var(--main-white);
+    background: #ED1BFF;
+    transition-duration: 0.3s;
+}
+
+.popup .popup__info {
+    width: 35rem;
+    color: #878787;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.popup__close-btn {
+    z-index: 10;
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: #717171;
+    cursor: pointer;
+}
+
+.popup__close-btn:hover path {
+    fill: red;
+    transition-duration: 0.3s;
+}
+
+.popup__item input {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#popup img {
+    filter: blur(20px);
+}
+/* POPUP */
 
 
 /* Adaptive */
@@ -1178,109 +1278,21 @@ a:focus {
         margin-right: 0;
         margin-bottom: 10px;
     }
+
+    .popup__body {
+        min-height: 100%;
+        border-radius: 0;
+        padding: 20px 20px 40px;
+    }
+
+    .popup__title {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .popup__item input,
+    .popup .popup__info {
+        width: 100%;
+    }
+
 }
-
-
-/* POPUP */
-.popup {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 100;
-}
-
-.popup__body {
-    position: relative;
-    max-height: 55rem;
-    padding: 5.2rem 5.7rem 10rem;
-    background: var(--main-white);
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    background-image: url("../src/gradient.svg");
-    background-position: top left;
-}
-
-.popup__title {
-    font-size: 3.6rem;
-    line-height: 50px;
-    width: 70%;
-    word-break: break-word;
-    margin-bottom: 5rem;
-}
-
-.popup__item {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.popup__item input {
-    width: 30rem;
-    border-radius: 4rem;
-    padding: 12px 16px;
-    border: 1px solid #989898;
-    margin-bottom: 1rem;
-}
-
-#popup input:focus {
-    font-weight: 600;
-}
-
-.popup__item input:first-of-type {
-    margin-bottom: 1.6rem;
-}
-
-#popup .popup__btn-container {
-    width: 30rem;
-    font-size: 1.6rem;
-    padding: 1.2rem 0 1.2rem 7rem;
-    color: #ED1BFF;
-    border-radius: 4rem;
-    border: 1px solid #ED1BFF;
-    background: var(--main-white);
-}
-
-#popup .popup__btn-container:hover {
-    color: var(--main-white);
-    background: #ED1BFF;
-    transition-duration: 0.3s;
-}
-
-.popup .popup__info {
-    width: 35rem;
-    color: #878787;
-    font-size: 1.4rem;
-    margin-top: 1rem;
-}
-
-.popup__close-btn {
-    z-index: 10;
-    position: absolute;
-    top: 2rem;
-    right: 3rem;
-    color: #717171;
-    cursor: pointer;
-}
-
-.popup__close-btn:hover path {
-    fill: red;
-    transition-duration: 0.3s;
-}
-
-.popup__item input {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-#popup img {
-    filter: blur(20px);
-}
-
-/* POPUP */

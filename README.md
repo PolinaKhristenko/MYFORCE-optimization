@@ -1,8 +1,10 @@
 # Landing for a consulting company
 
-### Adaptive landing page and quiz using jQuery
+#### Adaptive landing page and quiz using jQuery
 
-### 2 front-end developers collaboration
+#### Two front-end developers collaboration
+
+### Main page:
 
 <img width="660" alt="Screenshot 2022-07-11 at 20 28 50" src="https://user-images.githubusercontent.com/88159970/178322929-2256c723-9462-41d6-84b9-8555d3e2d14b.png">
 
